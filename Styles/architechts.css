@@ -8,11 +8,23 @@
   
 }
 
+.btn-primary{
+  border-radius: 8px;
+  color: #FFF;
+  font-size: 1.25rem;
+  background: #FF900E;
+  padding: 20px 25px;
+  border: none;
+  cursor: pointer;
+}
 
+body {
+  overflow-x: hidden;
+}
 /* Header Styles*/
 header{
   background: rgba(255, 144, 14, 0.10);
-  padding: 50px 240px;
+  padding: 60px 250px;
 }
 nav {
   display: flex;
@@ -54,3 +66,72 @@ nav a {
 .banner-description {
   color: #727272;
 }
+.banner img {
+  width: 100%;
+  margin-top: 20px;
+}
+
+/* Responsive Media Quary for Mobile*/
+
+@media screen and ( max-width: 576px) {
+  header {
+    padding: 20px;
+  }
+  nav {
+    flex-direction: column;
+  }
+}
+
+
+/* Responsive Media Quary for teblet*/
+@media screen and (min-width: 576px) and (max-width: 960px){
+  header {
+    padding: 50px;
+  }
+  nav {
+    flex-direction: column;
+  }
+}
+/* Main Style */
+main {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+/*Teams Styles */
+.teams-container {
+  display: flex;
+  align-items: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
